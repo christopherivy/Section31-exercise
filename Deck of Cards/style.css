@@ -1,15 +1,23 @@
 .card-img {
     height: 525;
     width: 320;
-    margin: -500px 0 0 0px;
+    margin-top: -250px;
+    margin-left: 60px;
     background-color: transparent;
     border: none;
 }
 
 .card {
-    height: 525;
-    width: 320;
+    position: absolute;
     background-color: transparent;
     overflow: hidden;
     border: none;
+}
+
+body {
+    background-color: #308834;
+}
+
+#play-again-btn {
+    display: inline;
 }
